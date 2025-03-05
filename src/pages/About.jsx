@@ -1,15 +1,19 @@
 import React from "react";
+import "./About.css"; // استيراد التنسيق
 
 function About() {
   return (
-    <section id="about" className="py-10 px-6">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">About Me</h2>
-        <p className="text-lg max-w-2xl mx-auto">
-          I'm a **Computer Science Engineering** graduate specializing in **Data Engineering**. 
-          I have expertise in **SQL, Python, Power BI, and data analysis**, and I am interested in 
-          expanding my knowledge in the **banking sector**.
-        </p>
+    <section id="about" className="section">
+      <div className="about-container">
+        <img src="/images/profile.jpg" alt="Moner Tantawy" className="profile-pic" />
+        <div className="about-text">
+          <h2>About Me</h2>
+          <p>
+            I'm a <strong>Computer Science Engineering</strong> graduate specializing in <strong>Data Engineering</strong>. 
+            I have expertise in <strong>SQL, Python, Power BI</strong>, and data analysis. 
+            I'm also interested in expanding my knowledge in the <strong>banking sector</strong>.
+          </p>
+        </div>
       </div>
     </section>
   );

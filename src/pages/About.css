@@ -1,0 +1,16 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #00bcd4;
+}
+
+.about-text {
+  flex: 1;
+}
