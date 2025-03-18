@@ -1,0 +1,32 @@
+.container {
+    max-width: 85dvw !important;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 95dvw !important;
+    }
+    .header-image {
+        grid-row: 1;
+    }
+    .header-content {
+        grid-row: 2;
+    }
+}
+
+@keyframes gradient {
+     0% { background-position: 0% 50%; }
+     50% { background-position: 100% 50%; }
+     100% { background-position: 0% 50%; }
+ }
+
+.text-transparent {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
