@@ -116,7 +116,7 @@ const Projects = () => {
                     !isProjectsLessThanSix && (
                         <div className="flex justify-center items-center mt-12">
                             <Link
-                                to="/projects"
+                                to="/moner-portfolio/projects"
                                 className="inline-block px-12 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                                 All projects
                             </Link>
