@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<AllProjects />} />
+            <Route path="/moner-portfolio" element={<Home />} />
+            <Route path="/moner-portfolio/projects" element={<AllProjects />} />
         </Routes>
     </Router>
   );
