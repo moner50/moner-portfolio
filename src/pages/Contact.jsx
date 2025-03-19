@@ -1,10 +1,28 @@
 import ContactForm from '../components/Contact/ContactForm.jsx';
 import ContactDetails from '../components/Contact/ContactDetails.jsx';
 import { Element } from 'react-scroll';
-import contactData from '../data/contact.json';
+
+const contactData = {
+        "contactDetails": {
+            "image": "/images/profile.png",
+            "info": {
+                "Address": "Cairo, Egypt",
+                "MobileNumber": "+20 155 298 1952",
+                "Email": "mmoner5050@gmail.com"
+            },
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/moner-tantawy-922b17265",
+                "github": "https://github.com/moner50",
+                "freelance-yard": "https://www.freelanceyard.com/en/freelancers/moner-tantawy"
+            }
+        },
+        "formConfig": {
+            "accessKey": "6b5d28fe-de62-48cf-92e0-9b7e10aec96e"
+        }
+};
 
 const Contact = () => {
-  // Data configuration
+
   const formConfig = {
     formAction: 'https://api.web3forms.com/submit',
     accessKey: contactData.formConfig.accessKey,
