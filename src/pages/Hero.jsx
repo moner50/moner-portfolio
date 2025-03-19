@@ -4,7 +4,7 @@ import {Element} from "react-scroll";
 
 const mainDetails = {
     "pageTitle": "Moner Tantawy",
-    "introImage": "/images/profile.png",
+    "introImage": "/moner-portfolio/images/profile.png",
     "introHeading": "Transforming Data into",
     "introHeadingHighlight": "Business Insights",
     "introAbout": "I'm a Computer Science Engineering graduate specializing in Data Engineering. I have expertise in SQL, Python, Power BI, and data analysis. I'm also interested in expanding my knowledge in the banking sector."
