@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import ProjectCard from "../components/Projects/ProjectCard.jsx";
 import ProjectDetails from "../components/Projects/ProjectDetails.jsx";
-import projectData from '../data/projects.json';
+import projectData from './Projects.jsx';
 
 function AllProjects() {
     const [selectedProject, setSelectedProject] = useState(null);
