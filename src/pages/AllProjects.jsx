@@ -17,7 +17,7 @@ function AllProjects() {
                 <header className="bg-white shadow-md h-[15vh] min-h-[100px] flex items-center justify-between px-6 fixed w-full z-10">
                     <h1 className="text-3xl font-bold text-indigo-600">Moner Tantawy</h1>
                     <Link
-                        to="/"
+                        to="/moner-portfolio"
                         className="bg-indigo-600 text-white flex items-center px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors duration-300"
                     >
                         Back to Home
