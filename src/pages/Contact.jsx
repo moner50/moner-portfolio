@@ -4,7 +4,7 @@ import { Element } from 'react-scroll';
 
 const contactData = {
         "contactDetails": {
-            "image": "/images/profile.png",
+            "image": "/moner-portfolio/images/profile.png",
             "info": {
                 "Address": "Cairo, Egypt",
                 "MobileNumber": "+20 155 298 1952",
