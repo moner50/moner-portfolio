@@ -1,7 +1,14 @@
 import React from 'react';
 import { Hero } from '../components/Hero/index.jsx';
 import {Element} from "react-scroll";
-import mainDetails from '../data/main-details.json';
+
+const mainDetails = {
+    "pageTitle": "Moner Tantawy",
+    "introImage": "/images/profile.png",
+    "introHeading": "Transforming Data into",
+    "introHeadingHighlight": "Business Insights",
+    "introAbout": "I'm a Computer Science Engineering graduate specializing in Data Engineering. I have expertise in SQL, Python, Power BI, and data analysis. I'm also interested in expanding my knowledge in the banking sector."
+};
 
 function HeroSection() {
     return (
