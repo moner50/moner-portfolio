@@ -1,9 +1,33 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import projectsData from '../data/projects.json';
 import ProjectCard from '../components/Projects/ProjectCard.jsx';
 import ProjectDetails from '../components/Projects/ProjectDetails.jsx';
 import {Element} from "react-scroll";
+
+const projectsData = {
+    "projects": [
+        {
+            "id": 1,
+            "title": "Bike Sales Analysis",
+            "description": "Used Excel for data cleaning and analysis to uncover key sales insights.",
+            "category": "Excel",
+            "imageUrl": "https://moner50.github.io/moner-portfolio/images/dashboard1.jpg",
+            "linkedin_post": "https://www.linkedin.com/posts/moner-tantawy-922b17265_dataanalysis-bikesales-customerinsights-activity-7292638845546749952-TOAz",
+            "github_repo": "https://github.com/moner50/Bike-Sales-Analysis",
+            "liveUrl": ""
+        },
+        {
+            "id": 2,
+            "title": "Data Professional Survey Analysis",
+            "description": "Built Power BI dashboards to analyze salary trends and industry challenges.",
+            "category": "Power BI",
+            "imageUrl": "https://moner50.github.io/moner-portfolio/images/dashboard2.jpg",
+            "linkedin_post": "https://www.linkedin.com/posts/moner-tantawy-922b17265_powerbi-dataanalytics-datascience-activity-7295547473798873088-yrO-",
+            "github_repo": "https://github.com/moner50/Data_Survey",
+            "liveUrl": ""
+        }
+    ]
+};
 
 const Projects = () => {
     const [selectedProject, setSelectedProject] = useState(null);
