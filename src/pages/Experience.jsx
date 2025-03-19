@@ -1,7 +1,33 @@
 import React from 'react';
 import ExperienceCard from '../components/Experience/ExperienceCard.jsx';
 import { Element } from "react-scroll";
-import experiences from '../data/experiences.json';
+
+const experiences = [
+    {
+        "id": 1,
+        "role": "Data Analyst",
+        "company": "NTI",
+        "duration": "2024 - 2025",
+        "description": "Used SQL and Python for data extraction, transformation, and analysis.",
+        "skills": [
+            "SQL",
+            "Python"
+        ],
+        "logo": "https://www.ntiegypt.sci.eg/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1733222082/NTI%20Logo.png"
+    },
+    {
+        "id": 2,
+        "role": "Data Engineer",
+        "company": "Ministry of Communications",
+        "duration": "Jun 2019 - Feb 2020",
+        "description": "Developed database systems, optimized performance, and collaborated on data solutions.",
+        "skills": [
+            "Databases",
+            "PowerBI"
+        ],
+        "logo": "https://cdn1.vc4a.com/media/2022/08/MCIT-Logo-500x322.png"
+    }
+];
 
 const Experience = () => {
   return (
